@@ -47,7 +47,7 @@ Partial Class Form2
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(30, 49)
+        Me.TextBox2.Location = New System.Drawing.Point(30, 42)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 2
@@ -62,9 +62,10 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(164, 49)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(194, 45)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(10, 13)
+        Me.Label1.Size = New System.Drawing.Size(21, 31)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = " "
         '
